@@ -10,9 +10,9 @@ end
 
 board = [" ", " ", " "]
 def input_to_index(input)
-  input = "1 == board[0],
-           2 == board[1],
-           3 == board[2],
+  input = "1" == board[0],
+          "2" == board[1],
+          "3" == board[2],
            4 == board[3],
            5 == board[4],
            6 == board[5],
