@@ -14,8 +14,7 @@ end
 
 
 board = [" ", " ", " "]
-value = "X"
 
-def move(board, input, board[0] == "X")
-
+def move(board, input, player_char = "X")
+  board[input] = player_char
 end
