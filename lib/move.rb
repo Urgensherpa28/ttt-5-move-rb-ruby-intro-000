@@ -22,3 +22,5 @@ def input_to_index(input)
 end
 
 def move(array, index, player_char = "X")
+
+end
