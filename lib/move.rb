@@ -7,6 +7,8 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+
+board = [" ", " ", " "]
 def input_to_index(input)
   puts "1" == board[0]
   puts "2" == board[1]
@@ -18,4 +20,5 @@ def input_to_index(input)
   puts "8" == board[7]
   puts "9" == board[8]
 end
-  
+
+def move(array, index, player_char = "X") 
