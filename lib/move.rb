@@ -21,4 +21,4 @@ def input_to_index(input)
   puts "9" == board[8]
 end
 
-def move(array, index, player_char = "X") 
+def move(array, index, player_char = "X")
