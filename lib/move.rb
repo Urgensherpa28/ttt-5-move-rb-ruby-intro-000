@@ -7,3 +7,15 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+def input_to_index(input)
+  puts "1" == board[0]
+  puts "2" == board[1]
+  puts "3" == board[2]
+  puts "4" == board[3]
+  puts "5" == board[4]
+  puts "6" == board[5]
+  puts "7" == board[6]
+  puts "8" == board[7]
+  puts "9" == board[8]
+end
+  
